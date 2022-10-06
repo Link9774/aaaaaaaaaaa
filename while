@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class While02 {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int x;
+        x = s.nextInt();
+        while (x >= 10 && x <= 100){
+            if (x % 2 == 0) {
+                System.out.println("é par");
+            } else {
+                System.out.println("é impar");
+            }
+            x = s.nextInt();
+        }
+    }
+}
